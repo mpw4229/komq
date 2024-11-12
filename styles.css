@@ -1,0 +1,57 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 136, 0);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: '210 빛글';
+}
+.profile h1 {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.komq_link .link {
+    display: block;
+    text-decoration: none;
+    background-color: whitesmoke;
+    color: #FF5D00;
+    padding: 15px 0;
+    margin: 10px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: all 0.2s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.komq_link .link:hover {
+    background-color: rgb(224, 224, 224);
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+.logo {
+    width: 800px;
+    margin-bottom: 0px;
+}
+.komq_container h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer p {
+    font-size: 12px;
+    margin-top: 20px;
+}
+.small-icon {
+    width: 80px;
+    height: auto;
+    margin-right: 2px;
+    vertical-align: middle;
+
+}
